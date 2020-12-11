@@ -1,0 +1,139 @@
+body {
+   margin: 0; 
+  text-align: center;
+  font-family: 'Merriweather', serif;
+}
+
+h1 {
+  margin: 50px auto 0 auto;
+  font-family: 'Sacramento', cursive;
+  font-size: 5.625rem;
+}
+
+h1, h2 {
+  color: #66BFBF;
+}
+
+h2, h3 {
+  font-family: 'Montserrat', sans-serif;
+}
+h2 {
+  font-weight:500;
+  font-size: 2.5rem;
+}
+
+.top-container {
+  background-color: #E4F9F5;
+  position: relative;
+  padding-top: 100px;
+}
+
+.pro {
+  text-decoration: underline;
+}
+
+.bottom-cloud {
+  position: absolute;
+  left: 300px;
+  bottom: 300px;
+}
+
+.top-cloud {
+  position: absolute;
+  right: 300px;
+  top: 50px;
+}
+.profile-img {
+  height: 250px;
+  width: 250px;
+  margin-top: 4rem;
+}
+
+h3, a {
+  color: #11999E;
+}
+.skill-row {
+  width: 50%;
+  margin: 100px auto;
+  text-align: left;
+  line-height: 2;
+}
+
+.web-dev {
+  width: 25%;
+  float: left;
+  margin-right: 30px;
+}
+.databases {
+  width: 25%;
+  float: right;
+}
+.python-java {
+  width: 25%;
+  float: left;
+  margin-right: 30px;
+}
+hr
+{
+  background-color: white;
+  background: none;
+  height: 2px;
+  width: 3%;
+  border-style: dotted none none none;
+  border-color: grey;
+  border-width: 5px;
+  margin-top: 4rem;
+  margin-bottom: 4rem;
+}
+p {
+  color: #40514E;
+}
+.bottom-container {
+  background-color: #66BFBF;
+  margin-bottom: 0;
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+  line-height: 2;
+  margin-top: 5rem;
+}
+.bottom-container p {
+  margin-bottom: 0;
+  color: #EAF6F6;
+}
+.bottom-container a {
+  text-decoration: none;
+  margin-left: 1rem;
+  margin-right: 1rem;
+}
+.bottom-container a:hover {
+  color: #EAF6F6;
+}
+.btn {
+  background: #11cdd4;
+  background-image: -webkit-linear-gradient(top, #11cdd4, #11999e);
+  background-image: -moz-linear-gradient(top, #11cdd4, #11999e);
+  background-image: -ms-linear-gradient(top, #11cdd4, #11999e);
+  background-image: -o-linear-gradient(top, #11cdd4, #11999e);
+  background-image: linear-gradient(to bottom, #11cdd4, #11999e);
+  -webkit-border-radius: 8;
+  -moz-border-radius: 8;
+  border-radius: 8px;
+  font-family: 'Montserrat', sans-serif;
+  color: #ffffff;
+  font-size: 20px;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+}
+
+.btn:hover {
+  background: #30e3cb;
+  background-image: -webkit-linear-gradient(top, #30e3cb, #2bc4ad);
+  background-image: -moz-linear-gradient(top, #30e3cb, #2bc4ad);
+  background-image: -ms-linear-gradient(top, #30e3cb, #2bc4ad);
+  background-image: -o-linear-gradient(top, #30e3cb, #2bc4ad);
+  background-image: linear-gradient(to bottom, #30e3cb, #2bc4ad);
+  text-decoration: none;
+}
+.letswork {
+  margin-bottom: 3rem;
+}
